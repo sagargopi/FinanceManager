@@ -75,7 +75,7 @@ const Register = () => {
       }
       else{
         toast.error(data.message, toastOptions);
-        setLoading(false);
+        setLoading(true);
       }
     };
 
